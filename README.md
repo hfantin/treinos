@@ -17,3 +17,7 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+
+## creating the crud 
+- groups: id smallserial PRIMARY KEY, nome varchar NOT NULL
+> mix phx.gen.html Groups Groups groups id:integer name:string
