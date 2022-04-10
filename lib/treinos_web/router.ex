@@ -18,6 +18,8 @@ defmodule TreinosWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+
+    resources "/groups", GroupController
   end
 
   # Other scopes may use custom stacks.
