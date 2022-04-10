@@ -24,7 +24,7 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 
 ## creating the crud 
 - groups: id smallserial PRIMARY KEY, nome varchar NOT NULL
-> mix phx.gen.html Groups Group groups name:string
+> mix phx.gen.live Groups Group groups name:string
 
 
 ## Links
