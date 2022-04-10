@@ -1,0 +1,20 @@
+version: "3.7"
+services:
+  db:
+    image: postgres:9.5
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=treinos
+    networks:
+      - internal
+
+networks:
+  internal:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: "111.111.10.0/24"
