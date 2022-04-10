@@ -18,8 +18,14 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
   * schema types: https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Schema.html
+  * phoenix live view: https://github.com/phoenixframework/phoenix_live_view
 
 
 ## creating the crud 
 - groups: id smallserial PRIMARY KEY, nome varchar NOT NULL
 > mix phx.gen.html Groups Group groups name:string
+
+
+## Links
+- phoenix live view(13:00) - https://www.youtube.com/watch?v=U_Pe8Ru06fM 
+- crud in 5 minutes - https://www.wbotelhos.com/crud-in-5-minutes-with-phoenix-and-elixir
