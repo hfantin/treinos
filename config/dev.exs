@@ -2,10 +2,10 @@ import Config
 
 # Configure your database
 config :treinos, Treinos.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "admin",
+  password: "admin",
   hostname: "localhost",
-  database: "treinos_dev",
+  database: "treinos",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
