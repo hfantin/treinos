@@ -20,6 +20,7 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Source: https://github.com/phoenixframework/phoenix
   * schema types: https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Schema.html
   * phoenix live view: https://github.com/phoenixframework/phoenix_live_view
+  * 
 
 
 ## creating the crud 
@@ -30,3 +31,5 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 ## Links
 - phoenix live view(13:00) - https://www.youtube.com/watch?v=U_Pe8Ru06fM 
 - crud in 5 minutes - https://www.wbotelhos.com/crud-in-5-minutes-with-phoenix-and-elixir
+- live view auth - https://alchemist.camp/episodes/phoenix-live-view-auth
+- phoenix auth - https://hexdocs.pm/phoenix/mix_phx_gen_auth.html
